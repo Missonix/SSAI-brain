@@ -1,0 +1,48 @@
+{
+    "graphs": {
+        "mcp_agent": {
+            "path": "./agent_demo.py:agent.graph",
+            "description": "集成天气查询和高德地图服务的MCP代理，使用Gemini-2.0-flash模型提供智能查询服务"
+        },
+        "enhanced_agent": "./enhanced_agent.py:EnhancedMCPAgent"
+    },
+    "env": ".env",
+    "http": {
+        "port": 8080,
+        "host": "0.0.0.0"
+    },
+    "dependencies": [
+        "langgraph>=0.2.0",
+        "langgraph-api>=0.2.3",
+        "langgraph-sdk>=0.1.61",
+        "langchain-google-genai>=2.0.0",
+        "langchain-core>=0.3.0",
+        "mcp>=1.0.0"
+    ],
+    "mcpServers": {
+        "weather-mcp": {
+            "command": "npx",
+            "args": ["-y", "@philschmid/weather-mcp"],
+            "env": {}
+        },
+        "amap-maps-mcp": {
+            "command": "npx", 
+            "args": ["-y", "@amap/amap-maps-mcp-server"],
+            "env": {
+                "AMAP_MAPS_API_KEY": ""
+            }
+        },
+        "bocha-search-mcp": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/path/to/bocha-search-mcp",
+                "run",
+                "bocha-search-mcp"
+            ],
+            "env": {
+                "BOCHA_API_KEY": ""
+            }
+        }
+    }
+} 

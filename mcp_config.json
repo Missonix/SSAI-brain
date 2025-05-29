@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "npx",
+      "args": ["-y", "@philschmid/weather-mcp"],
+      "env": null,
+      "description": "天气查询服务，提供全球城市的实时天气信息"
+    },
+    "amap-maps": {
+      "command": "npx",
+      "args": ["-y", "@amap/amap-maps-mcp-server"],
+      "env": {
+        "AMAP_MAPS_API_KEY": ""
+      },
+      "description": "高德地图服务，提供地理位置查询、路径规划等功能"
+    }
+  }
+} 
