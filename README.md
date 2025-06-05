@@ -1,9 +1,6 @@
 # 🧠 高度类人化虚拟角色对话应用
 
 一个突破性的AI角色模拟系统，创造具备真实情感、主观意识和自主意图的虚拟角色。每个角色都拥有动态情感系统、内置剧情引擎，能够像真人一样产生复杂的心理活动和细腻的情绪变化。
-## 聊天示例
-![示例图片1](images/lingye.png)
-![示例图片2](images/xiaozhi.jpg)
 
 ## 🌟 核心创新
 
@@ -127,6 +124,9 @@ python server.py
 # 启动对话客户端
 python client.py interactive
 ```
+## 聊天示例
+![示例图片1](images/lingye.png)
+![示例图片2](images/xiaozhi.jpg)
 
 ## 🎮 使用指南
 
