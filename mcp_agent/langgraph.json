@@ -4,7 +4,7 @@
             "path": "./agent_demo.py:agent.graph",
             "description": "集成天气查询和高德地图服务的MCP代理，使用Gemini-2.0-flash模型提供智能查询服务"
         },
-        "enhanced_agent": "./enhanced_agent.py:EnhancedMCPAgent"
+        "enhanced_agent": "./chat_agent.py:EnhancedMCPAgent"
     },
     "env": ".env",
     "http": {
