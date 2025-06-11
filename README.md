@@ -1,9 +1,7 @@
 # 🧠 高度类人化虚拟角色对话应用
 
 一个突破性的AI角色模拟系统，创造具备真实情感、主观意识和自主意图的虚拟角色。每个角色都拥有动态情感系统、内置剧情引擎，能够像真人一样产生复杂的心理活动和细腻的情绪变化。
-## 聊天示例
-![示例图片1](images/lingye.png)
-![示例图片2](images/xiaozhi.jpg)
+
 
 ## 🌟 核心创新
 
@@ -127,7 +125,16 @@ python server.py
 # 启动对话客户端
 python client.py interactive
 ```
-
+## 聊天示例
+![示例图片1](images/lingye.png)
+![示例图片2](images/xiaozhi.jpg)
+- 与动漫《进击的巨人》第四季中的 角色艾伦耶格尔对话 - 情景自动生成地鸣灭世时期,
+![示例图片3](images/image2.png)
+![示例图片4](images/image3.png)
+![示例图片5](images/image4.png)
+![示例图片6](images/image5.png)
+![示例图片7](images/image6.png)
+![示例图片8](images/image7.png)
 ## 🎮 使用指南
 
 ### 与虚拟角色对话
